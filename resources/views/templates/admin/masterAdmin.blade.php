@@ -10,10 +10,10 @@
   <title>Docfindboard</title>
   <!-- Iconic Fonts -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="vendors/iconic-fonts/font-awesome/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="vendors/iconic-fonts/flat-icons/flaticon.css">
-  <link rel="stylesheet" href="vendors/iconic-fonts/cryptocoins/cryptocoins.css">
-  <link rel="stylesheet" href="vendors/iconic-fonts/cryptocoins/cryptocoins-colors.css">
+  <link href="{{ asset('admin/vendors/iconic-fonts/font-awesome/css/all.min.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('admin/vendors/iconic-fonts/flat-icons/flaticon.css') }}">
+  <link rel="stylesheet" href="{{ asset('admin/vendors/iconic-fonts/cryptocoins/cryptocoins.css') }}">
+  <link rel="stylesheet" href="{{ asset('admin/vendors/iconic-fonts/cryptocoins/cryptocoins-colors.css') }}">
   <!-- Bootstrap core CSS -->
   <link href="{{ asset('admin/assets/css/bootstrap.min.css') }}" rel="stylesheet">
   <!-- jQuery UI -->
@@ -27,6 +27,8 @@
   <link href="{{ asset('admin/assets/css/morris.css') }}" rel="stylesheet">
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+
+  <link href="{{ asset('admin/assets/css/datatables.min.css') }}" rel="stylesheet">
 </head>
 
 <body class="ms-body ms-aside-left-open ms-primary-theme ms-has-quickbar">
@@ -163,6 +165,11 @@
   <script src="{{ asset('admin/assets/js/framework.js') }}"></script>
   <!-- Settings -->
   <script src="{{ asset('admin/assets/js/settings.js') }}"></script>
+
+  <!-- Page Specific Scripts Start -->
+  {{-- <script src="{{ asset('admin/assets/js/datatables.min.js') }}"> </script>
+  <script src="{{ asset('admin/assets/js/data-tables.js') }}"> </script> --}}
+  <!-- Page Specific Scripts End -->
 </body>
 
 
