@@ -10,7 +10,7 @@
     <ul class="accordion ms-main-aside fs-14" id="side-nav-accordion">
       <!-- Dashboard -->
       <li class="menu-item">
-        <a href="{{ route('route_BackEnd_Dashboard') }}" data-bs-toggle="collapse" data-bs-target="#dashboard" aria-expanded="false" aria-controls="dashboard">
+        <a href="{{ route('route_BackEnd_Dashboard') }}">
           <span><i class="material-icons fs-16">dashboard</i>Dashboard </span>
         </a>
       </li>
