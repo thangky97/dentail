@@ -12,13 +12,13 @@ class AdministratorController extends Controller
         return view('admin.administrator.list');
     }
 
-    // public function create()
-    // {
-    //     return view('admin.staff.add');
-    // }
+//     public function create()
+//     {
+//         return view('admin.administrator.add');
+//     }
 
-    // public function edit($id)
-    // {
-    //     return view('admin.staff.edit', ['id' => $id]);
-    // }
+//     public function edit($id)
+//     {
+//         return view('admin.administrator.edit', ['id' => $id]);
+//     }
 }
